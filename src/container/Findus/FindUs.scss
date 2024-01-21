@@ -1,0 +1,84 @@
+.app__findus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.app__findus_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__findus_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    h1{
+        color: var(--color-golden);
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+    }
+
+    .app__findus_info-grey{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        
+        p{
+            color: var(--color-grey);
+        }
+    }
+
+    .app__findus_info-opening{
+        font-weight: 60;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+        
+        p{
+            color: var(--color-golden);
+        }
+    }
+}
+
+.app__findus_image{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 200px;
+
+    img{
+        width: 570px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .app__findus{
+        min-height: 200%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 850px) {
+   
+}
+
+@media screen and (max-width: 650px) {
+   
+}
