@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.png";
 import G from "../assets/G.png";
@@ -19,7 +20,7 @@ import award03 from "../assets/award03.png";
 import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
-import gericht from "../assets/gericht.png";
+import restau from "../assets/restau.png";
 
 export const imagesGallery = [
   {
@@ -86,7 +87,7 @@ export const imagesGallery = [
     quote,
   },
   {
-    gericht,
+    restau,
   },
 ];
 
@@ -112,5 +113,5 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
+  restau,
 };
